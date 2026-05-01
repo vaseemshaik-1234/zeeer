@@ -1,0 +1,27 @@
+# 2. Create project folder and go inside it
+mkdir my-project
+cd my-project
+
+# 3. Initialize Git repository
+git init
+
+# 4. Create a file
+echo "Hello World" > README.md
+
+# 5. Add file to staging
+git add README.md
+
+# 6. Commit changes
+git commit -m "Initial commit"
+
+# 7. Connect to remote repository (replace with your GitHub repo URL)
+git remote add origin https://github.com/username/my-project.git
+
+# 8. Set main branch and push to GitHub
+git branch -M main
+git push -u origin main
+
+# 9. Future updates (whenever you make changes)
+git add .
+git commit -m "Update message"
+git push

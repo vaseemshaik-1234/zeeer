@@ -1,0 +1,24 @@
+# 1. Clone the remote repository (replace URL with your repo link)
+git clone https://github.com/username/repository-name.git
+
+# 2. Move into the cloned repository folder
+cd repository-name
+
+# 3. Check repository status
+git status
+
+# 4. View commit history
+git log --oneline
+
+# 5. (Optional) Create a new branch and work
+git checkout -b new-branch
+
+# 6. Make changes to a file
+echo "New changes after cloning" >> README.md
+
+# 7. Add and commit changes
+git add .
+git commit -m "Updated after cloning"
+
+# 8. Push changes to remote
+git push origin new-branch

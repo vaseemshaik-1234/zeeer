@@ -1,0 +1,18 @@
+# 1. View full commit history
+git log
+
+# 2. View short commit history (compact)
+git log --oneline
+
+# 3. View history of a specific file (optional)
+git log README.md
+
+# 4. Search for a specific commit by message
+git log --grep="Updated README"
+
+# 5. Copy the commit hash (first column in output)
+# Example output:
+# a1b2c3d Updated README from MITS branch
+
+# 6. Use the commit hash (example)
+git show a1b2c3d

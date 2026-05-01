@@ -1,0 +1,20 @@
+# 1. Create and switch to new branch "MITS"
+git checkout -b MITS
+
+# 2. Make changes to a file (example: README.md)
+echo "This is a change from MITS branch" >> README.md
+
+# 3. Add changes
+git add .
+
+# 4. Commit changes
+git commit -m "Updated README from MITS branch"
+
+# 5. Switch back to main branch
+git checkout main
+
+# 6. Merge MITS branch into main
+git merge MITS
+
+# 7. (Optional) Push changes to remote
+git push origin main
